@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Street Fight</title>
+    <style>
+      html,
+      body {
+        padding: 0;
+        margin: 0;
+        height: 100%;
+        width: 100%;
+        background-color: black;
+      }
+      body {
+        display: flex;
+      }
+      canvas {
+        width: 100%;
+        height: 100%;
+        border: white 2px solid;
+        image-rendering: crisp-edges;
+        image-rendering: pixelated;
+      }
+
+      img {
+        display: none;
+      }
+    </style>
+  </head>
+  <body>
+    <canvas></canvas>
+    <img id="ryu" src="img/players/ryu/ryu_main.png" alt="ryu" />
+    <img
+      id="bg_dhalism"
+      src="img/backgrounds/bg_dhalism.png"
+      alt="bg_ken"
+      width="100%"
+      height="100%"
+    />"
+    <img id="bison" src="img/players/bison/bison_main.png" alt="bison" />
+    <script type="module" src="index.js"></script>
+  </body>
+</html>
